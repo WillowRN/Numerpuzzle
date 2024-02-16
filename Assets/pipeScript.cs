@@ -64,3 +64,6 @@ public class pipeScript : MonoBehaviour
             
     }
 }
+// BUGS: some pieces make you move them to get to "solved" even if they are already in the correct location
+//       vertical piece never solves
+    //      last corner piece never solves
