@@ -207,6 +207,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &158425566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 158425568}
+  - component: {fileID: 158425567}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &158425567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158425566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c77b65d4fa102a458ed0d653308bfe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PipesHolder: {fileID: 1940745969}
+  Pipes: []
+  totalPipes: 0
+--- !u!4 &158425568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158425566}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &329780727
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctRotation: []
+  isPlaced: 0
 --- !u!1 &574045842
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,6 +970,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctRotation:
+  - 0
+  - 180
+  isPlaced: 0
 --- !u!1 &580447473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1316,6 +1369,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctRotation:
+  - 180
+  isPlaced: 0
 --- !u!1 &946900843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,6 +1683,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctRotation: []
+  isPlaced: 0
 --- !u!1 &1109385815
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,6 +2248,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctRotation:
+  - 0
+  - 180
+  isPlaced: 0
 --- !u!1 &1299384409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2333,6 +2395,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctRotation:
+  - 0
+  - 180
+  isPlaced: 0
 --- !u!1 &1402094445
 GameObject:
   m_ObjectHideFlags: 0
@@ -2476,6 +2542,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctRotation:
+  - 0
+  - 180
+  isPlaced: 0
 --- !u!1 &1476045981
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,6 +3623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  correctRotation: []
+  isPlaced: 0
 --- !u!1 &2143664936
 GameObject:
   m_ObjectHideFlags: 0
@@ -3646,3 +3718,4 @@ SceneRoots:
   - {fileID: 651610431}
   - {fileID: 1519105435}
   - {fileID: 1940745970}
+  - {fileID: 158425568}
