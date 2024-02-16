@@ -825,7 +825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
   isPlaced: 0
 --- !u!1 &574045842
 GameObject:
@@ -1683,7 +1684,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
   isPlaced: 0
 --- !u!1 &1109385815
 GameObject:
@@ -3623,7 +3625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation: []
+  correctRotation:
+  - 0
   isPlaced: 0
 --- !u!1 &2143664936
 GameObject:
