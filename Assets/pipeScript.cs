@@ -6,7 +6,7 @@ public class pipeScript : MonoBehaviour
 {
     float[] rotations = { 0, 90, 180, 270 };
 
-    public float[] correctRotation;
+    public float correctRotation;
     [SerializeField]
     bool isPlaced = false;
 
@@ -14,19 +14,19 @@ public class pipeScript : MonoBehaviour
 
     private void Start()
     {
-        PossibleRots = correctRotation.Length;
+        
         int rand = Random.Range(0, rotations.Length);
         transform.eulerAngles = new Vector3(0,0, rotations[rand]);
 
         if(PossibleRots > 1)
         {
-            if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1])
+            if (transform.eulerAngles.z == correctRotation)
             {
                 isPlaced = true;
             }
             else
             {
-                if (transform.eulerAngles.z == correctRotation[0])
+                if (transform.eulerAngles.z == correctRotation)
                 {
                     isPlaced = true;
                 }
@@ -41,7 +41,7 @@ public class pipeScript : MonoBehaviour
 
         if (PossibleRots > 1)
         {
-            if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1] && isPlaced == false)
+            if (transform.eulerAngles.z == correctRotation && isPlaced == false)
             {
                 isPlaced = true;
             }
@@ -52,7 +52,7 @@ public class pipeScript : MonoBehaviour
         }
         else
         {
-            if (transform.eulerAngles.z == correctRotation[0] && isPlaced == false)
+            if (transform.eulerAngles.z == correctRotation && isPlaced == false)
             {
                 isPlaced = true;
             }
@@ -67,3 +67,5 @@ public class pipeScript : MonoBehaviour
 // BUGS: some pieces make you move them to get to "solved" even if they are already in the correct location
 //       vertical piece never solves
     //      last corner piece never solves
+
+//my implementation: if is solved light up at the point with the music. 

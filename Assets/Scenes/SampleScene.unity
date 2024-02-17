@@ -825,8 +825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation:
-  - 0
+  correctRotation: 0
   isPlaced: 0
 --- !u!1 &574045842
 GameObject:
@@ -971,9 +970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation:
-  - 0
-  - 180
+  correctRotation: 0
   isPlaced: 0
 --- !u!1 &580447473
 GameObject:
@@ -1370,8 +1367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation:
-  - 180
+  correctRotation: 180
   isPlaced: 0
 --- !u!1 &946900843
 GameObject:
@@ -1684,8 +1680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation:
-  - 0
+  correctRotation: 0
   isPlaced: 0
 --- !u!1 &1109385815
 GameObject:
@@ -2250,9 +2245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation:
-  - 0
-  - 180
+  correctRotation: 0
   isPlaced: 0
 --- !u!1 &1299384409
 GameObject:
@@ -2397,9 +2390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation:
-  - 0
-  - 180
+  correctRotation: 0
   isPlaced: 0
 --- !u!1 &1402094445
 GameObject:
@@ -2544,9 +2535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation:
-  - 0
-  - 180
+  correctRotation: 0
   isPlaced: 0
 --- !u!1 &1476045981
 GameObject:
@@ -3625,8 +3614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffbde322cd8f6d4498dbf2dfc3c706c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctRotation:
-  - 0
+  correctRotation: 0
   isPlaced: 0
 --- !u!1 &2143664936
 GameObject:
